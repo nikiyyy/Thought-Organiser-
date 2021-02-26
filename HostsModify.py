@@ -1,8 +1,12 @@
+#import secrets 
+#import string
+
 def listSites():
     with open(r"C:\Windows\System32\drivers\etc\hosts","r") as f:
         fileContent=f.readlines()
-        for i in fileContent:
-            print(i)
+#        for i in fileContent:
+#            print(i)
+        return fileContent
 
 
 def addSite():
@@ -16,7 +20,9 @@ def removeSite():
     website=input("Please enter website URL or enter /// to exit \nExample: www.example.com \n")
     if website != "///":
         rows=[]
-        
+        #validation for the
+        #res = ''.join(secrets.choice(string.ascii_uppercase + string.digits + string.ascii_lowercase )for i in range(30)) 
+        #print("The generated random string : " + str(res)) 
         with open(r"C:\Windows\System32\drivers\etc\hosts","r") as f:
             fileContent=f.readlines()
             for i in fileContent:
@@ -27,22 +33,23 @@ def removeSite():
             for i in rows:
                 f.write(i)              
 
-try:
-    choise = 0
-    while choise != "///":
-        choise=input("Please enter the corresponding number : \n1. List all blocked websites\n2. Add website URL to The blocked website list\n3. Remove website URL to The blocked website list\n4. Exist\n")
-        if choise == '1':
-            listSites()
-            
-        elif choise == '2':
-            addSite()
-            
-        elif choise == '3':
-            removeSite()
-            
-        elif choise == '4':
-            break
-   
-    
-except:
-   print("Something went wrong!")    
+
+#try:
+#    choise = 0
+#    while choise != "///":
+#        choise=input("Please enter the corresponding number : \n1. List all blocked websites\n2. Add website URL to The blocked website list\n3. Remove website URL to The blocked website list\n4. Exist\n")
+#        if choise == '1':
+#            listSites()
+#            
+#        elif choise == '2':
+#            addSite()
+#            
+#        elif choise == '3':
+#            removeSite()
+#            
+#        elif choise == '4':
+#            break
+#   
+#    
+#except:
+#   print("Something went wrong!")    
