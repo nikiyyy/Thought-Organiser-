@@ -1,0 +1,57 @@
+test1 profesional high 2021-02-25
+test2 personal low 2021-02-25
+test1 profesional low 2021-02-20
+
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-25
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+test2 profesional high 2021-02-26
+PY_VAR78 PY_VAR80 PY_VAR79 2021-02-26
+PY_VAR78 PY_VAR80 PY_VAR79 2021-02-26
+<class 'tkinter.StringVar'> PY_VAR82 PY_VAR81 2021-02-26
+jjji pppppn iiioo 2021-02-27
+njj lkjiii jjkkk 2021-02-27
+example low ttr 2021-02-27
+yyg iuyyyyy gguuu 2021-02-27
+9674 rtye 6gytbtg6ggg f96ggggg 2021-02-27
+
+305    2021-02-27
