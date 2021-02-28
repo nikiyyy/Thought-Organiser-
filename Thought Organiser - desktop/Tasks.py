@@ -13,21 +13,23 @@ class Tasks:
         return str(self.id) + " " + self.name +" "+ self.typeofwork +" "+ self.priorty +" "+ self.dateAdded
     
 def addTask(task, typeofwork, priority):
-    obj1 = Tasks(task, typeofwork, priority)
-    with open("data.txt","a") as f:
-        f.write("\n"+str(obj1))
+    if task != '' and typeofwork != '' and priority != '':
+        obj1 = Tasks(task, typeofwork, priority)
+        with open("data.txt","a") as f:
+            f.write("\n"+str(obj1))
             
 def removeTask(identifier):
-    rows=[]
-    with open("data.txt","r") as f:
-        fileContent=f.readlines()
-        for i in fileContent:
-            if identifier in i:
-                continue
-            rows.append(i)   
-    with open("data.txt","w") as f:
-        for i in rows:
-            f.write(i)              
+    if identifier != "":
+        rows=[]
+        with open("data.txt","r") as f:
+            fileContent=f.readlines()
+            for i in fileContent:
+                if identifier in i:
+                    continue
+                rows.append(i)   
+        with open("data.txt","w") as f:
+            for i in rows:
+                f.write(i)              
     
 def listTasks():
     with open("data.txt","r") as f:
